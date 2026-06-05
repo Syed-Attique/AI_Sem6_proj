@@ -1,0 +1,73 @@
+Best model: Random Forest
+
+Model: Logistic Regression
+Accuracy: 0.8965
+Phishing recall: 0.8680
+Phishing F1-score: 0.8905
+Confusion matrix:
+[[2941  244]
+ [ 396 2603]]
+Classification report:
+              precision    recall  f1-score   support
+
+  legitimate       0.88      0.92      0.90      3185
+    phishing       0.91      0.87      0.89      2999
+
+    accuracy                           0.90      6184
+   macro avg       0.90      0.90      0.90      6184
+weighted avg       0.90      0.90      0.90      6184
+
+
+Model: Decision Tree
+Accuracy: 0.9141
+Phishing recall: 0.9173
+Phishing F1-score: 0.9120
+Confusion matrix:
+[[2902  283]
+ [ 248 2751]]
+Classification report:
+              precision    recall  f1-score   support
+
+  legitimate       0.92      0.91      0.92      3185
+    phishing       0.91      0.92      0.91      2999
+
+    accuracy                           0.91      6184
+   macro avg       0.91      0.91      0.91      6184
+weighted avg       0.91      0.91      0.91      6184
+
+
+Model: Random Forest
+Accuracy: 0.9463
+Phishing recall: 0.9446
+Phishing F1-score: 0.9446
+Confusion matrix:
+[[3019  166]
+ [ 166 2833]]
+Classification report:
+              precision    recall  f1-score   support
+
+  legitimate       0.95      0.95      0.95      3185
+    phishing       0.94      0.94      0.94      2999
+
+    accuracy                           0.95      6184
+   macro avg       0.95      0.95      0.95      6184
+weighted avg       0.95      0.95      0.95      6184
+
+
+Model: Naive Bayes
+Accuracy: 0.7532
+Phishing recall: 0.5105
+Phishing F1-score: 0.6674
+Confusion matrix:
+[[3127   58]
+ [1468 1531]]
+Classification report:
+              precision    recall  f1-score   support
+
+  legitimate       0.68      0.98      0.80      3185
+    phishing       0.96      0.51      0.67      2999
+
+    accuracy                           0.75      6184
+   macro avg       0.82      0.75      0.74      6184
+weighted avg       0.82      0.75      0.74      6184
+

@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>AI Phishing Detector</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main>
+      <div class="stars"></div>
+      <header>
+        <div class="brand">
+          <img src="icon.svg" alt="" aria-hidden="true">
+          <h1>Phishing Detective</h1>
+        </div>
+        <span id="statusBadge" class="badge neutral">Waiting</span>
+      </header>
+
+      <section>
+        <label>Current URL</label>
+        <p id="currentUrl">Loading...</p>
+      </section>
+
+      <section class="risk-panel neutral">
+        <label>Risk Score</label>
+        <p id="riskScore" class="score neutral">-</p>
+      </section>
+
+      <p id="message">Open a website and scan the current tab.</p>
+      <button id="markLegitButton" class="secondary-button" type="button" hidden>Mark as Legit</button>
+      <button id="scanButton" type="button">Rescan Current Page</button>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>

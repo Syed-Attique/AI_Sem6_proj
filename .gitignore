@@ -1,0 +1,5 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+dataset/user_legitimate_feedback.csv

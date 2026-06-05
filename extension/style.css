@@ -1,0 +1,184 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 330px;
+  margin: 0;
+  color: #f9fafb;
+  background: #0b111b;
+  font-family: Arial, sans-serif;
+}
+
+main {
+  position: relative;
+  min-height: 0;
+  overflow: hidden;
+  padding: 14px;
+  background: #0b111b;
+}
+
+.stars {
+  display: none;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 12px;
+  padding: 4px 0 10px;
+  border-bottom: 1px solid rgba(148, 163, 184, 0.16);
+  background: transparent;
+  box-shadow: none;
+}
+
+.brand {
+  display: flex;
+  min-width: 0;
+  align-items: center;
+  gap: 10px;
+}
+
+.brand img {
+  width: 24px;
+  height: 24px;
+  flex: 0 0 auto;
+}
+
+h1 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+section {
+  border: 1px solid rgba(148, 163, 184, 0.14);
+  border-radius: 10px;
+  margin: 0 0 8px;
+  padding: 10px;
+  background: rgba(15, 23, 42, 0.42);
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #8f9aaa;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+p {
+  margin: 0;
+  line-height: 1.4;
+}
+
+#currentUrl {
+  overflow-wrap: anywhere;
+  color: #e5e7eb;
+  font-size: 12px;
+}
+
+.score {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.score.danger {
+  color: #f97373;
+}
+
+.score.safe {
+  color: #4ade80;
+}
+
+.score.neutral {
+  color: #cbd5e1;
+}
+
+.risk-panel.danger {
+  border-color: rgba(248, 113, 113, 0.30);
+  border-left: 3px solid #ef4444;
+  background: rgba(15, 23, 42, 0.42);
+}
+
+.risk-panel.safe {
+  border-color: rgba(74, 222, 128, 0.28);
+  border-left: 3px solid #22c55e;
+  background: rgba(15, 23, 42, 0.42);
+}
+
+.risk-panel.neutral {
+  border-color: rgba(255, 255, 255, 0.10);
+  border-left: 3px solid rgba(148, 163, 184, 0.42);
+  background: rgba(255, 255, 255, 0.045);
+}
+
+#message {
+  min-height: 32px;
+  margin: 4px 0 12px;
+  padding: 0 2px;
+  color: #b6bbc4;
+  font-size: 12px;
+}
+
+.badge {
+  flex: 0 0 auto;
+  border-radius: 999px;
+  padding: 4px 8px;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.badge.neutral {
+  color: #d1d5db;
+  background: rgba(31, 41, 55, 0.9);
+}
+
+.badge.safe {
+  color: #86efac;
+  background: transparent;
+  box-shadow: inset 0 0 0 1px rgba(74, 222, 128, 0.34);
+}
+
+.badge.danger {
+  color: #fca5a5;
+  background: transparent;
+  box-shadow: inset 0 0 0 1px rgba(248, 113, 113, 0.36);
+}
+
+button {
+  width: 100%;
+  border: 1px solid rgba(148, 163, 184, 0.22);
+  border-radius: 9px;
+  padding: 9px 12px;
+  color: #f9fafb;
+  background: #1f2937;
+  font-weight: 700;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #263445;
+}
+
+.secondary-button {
+  margin-bottom: 8px;
+  border-color: rgba(34, 197, 94, 0.24);
+  color: #86efac;
+  background: transparent;
+}
+
+.secondary-button:hover {
+  background: rgba(34, 197, 94, 0.08);
+}
+
+button:disabled {
+  cursor: wait;
+  opacity: 0.65;
+}
