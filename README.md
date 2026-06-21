@@ -123,4 +123,3 @@ The model uses URL-only features including:
 - Add domain age and WHOIS-based signals.
 - Package the model for offline extension-side prediction.
 - Add a user allowlist/blocklist.
-  ###
